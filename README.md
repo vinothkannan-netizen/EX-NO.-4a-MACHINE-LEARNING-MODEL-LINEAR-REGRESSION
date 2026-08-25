@@ -491,7 +491,7 @@ plt.figure(figsize=(10,6))
 
 sns.barplot(
     x="RMSE",
-    y="Model",
+    y="Model", 
     data=results_df.sort_values("RMSE")
 )
 
